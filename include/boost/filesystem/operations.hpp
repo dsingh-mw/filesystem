@@ -52,7 +52,6 @@ enum class copy_options : unsigned int
     none = 0u, // Default. For copy_file: error if the target file exists. For copy: do not recurse, follow symlinks, copy file contents.
 
     // copy_file options:
-
     skip_existing = 1u,                 // Don't overwrite the existing target file, don't report an error
     overwrite_existing = 1u << 1u,      // Overwrite existing file
     update_existing = 1u << 2u,         // Overwrite existing file if its last write time is older than the replacement file
