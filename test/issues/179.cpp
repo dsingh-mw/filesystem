@@ -49,7 +49,7 @@ int cpp_main(int argc, char* argv[])
     try
     {
         // Attempt to use mocked fcmhod implementation which always errors out.
-        file_copied = fs::copy_file("f1", "f2", fs::copy_options::overwrite_existing);
+        file_copied = fs::copy_file("f1", "f2", fs::copy_options::ignore_attribute_errors);
     }
     catch (const fs::filesystem_error&)
     {
