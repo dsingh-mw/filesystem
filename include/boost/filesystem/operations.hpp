@@ -58,7 +58,7 @@ enum class copy_options : unsigned int
     synchronize_data = 1u << 3u,        // Flush all buffered data written to the target file to permanent storage
     synchronize = 1u << 4u,             // Flush all buffered data and attributes written to the target file to permanent storage
     ignore_attribute_errors = 1u << 5u, // Ignore errors of copying file attributes
-    
+
     // copy options:
     recursive = 1u << 8u,               // Recurse into sub-directories
     copy_symlinks = 1u << 9u,           // Copy symlinks as symlinks instead of copying the referenced file
