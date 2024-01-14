@@ -1,3 +1,5 @@
+//  operations.cpp  --------------------------------------------------------------------//
+
 //  Copyright 2002-2009, 2014 Beman Dawes
 //  Copyright 2001 Dietmar Kuehl
 //  Copyright 2018-2024 Andrey Semashev
